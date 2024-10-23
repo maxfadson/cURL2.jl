@@ -1,0 +1,23 @@
+[Owners]
+docs/ @gryumov
+src/ @gryumov
+test/ @gryumov
+Project.toml @gryumov
+LICENSE @gryumov
+.gitlab/merge_request_templates/Default.md @gryumov
+.gitlab/CODEOWNERS @gryumov
+.gitattributes @gryumov
+.gitlab-ci.yml @gryumov
+
+[Maintainers]
+docs/ @Anastas_grek @DeevsDeevs @ShadrinYuri
+examples/ @Anastas_grek @DeevsDeevs @ShadrinYuri
+src/ @Anastas_grek @DeevsDeevs @ShadrinYuri
+test/ @Anastas_grek @DeevsDeevs @ShadrinYuri
+Project.toml @Anastas_grek @DeevsDeevs @ShadrinYuri
+
+^[Developer]
+README.md @gryumov
+CHANGELOG.md @gryumov
+.JuliaFormatter.toml @gryumov
+.gitignore @gryumov

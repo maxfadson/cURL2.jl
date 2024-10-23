@@ -1,0 +1,11 @@
+name = "cURL2"
+uuid = "c907867e-b003-4c57-b483-263f7a544358"
+authors = ["Julia <julia@julia.com>"]
+version = "1.6.0"
+
+[deps]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+LibCURL2 = "cfbff0d1-9375-5685-968c-48ce8b15ae17"
+
+[compat]
+julia = "1.8"

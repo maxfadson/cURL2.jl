@@ -1,0 +1,27 @@
+stages:
+  - test-coverage
+  - pkg-registry
+  - badge-version
+  - compat-helper
+  - deploy-doc
+
+include:
+  - project: 'bhft/CI/CoverageCI'
+    file: 'test-coverage-ci.yml'
+    ref: master
+
+  - project: 'bhft/registries/Common.jl'
+    file: 'pkg-registry-ci.yml'
+    ref: master
+
+  - project: 'bhft/CI/BadgesCI'
+    file: 'badge-version-ci.yml'
+    ref: master
+
+  - project: 'bhft/CI/CompatHelperCI'
+    file: 'compat-helper-ci.yml'
+    ref: master
+    
+  - project: 'bhft/CI/DocumenterCI'
+    file: 'deploy-doc-ci.yml'
+    ref: master

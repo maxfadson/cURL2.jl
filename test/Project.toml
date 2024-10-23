@@ -1,0 +1,8 @@
+[deps]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LibCURL2 = "a9341e5c-07f0-4893-8fea-80ee6f4ebcc7"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

@@ -1,0 +1,8 @@
+- [ ] Did you bump the project version?
+- [ ] Did you add a description to the Merge Request?
+- [ ] Did you add the dependency to the Issue?
+- [ ] Did you add new tests?
+- [ ] Did you update the description in README.md?
+- [ ] Did you add descriptions of new features to CHANGELOG.md?
+- [ ] Did you add reviewers?
+- [ ] Did you add labels?
